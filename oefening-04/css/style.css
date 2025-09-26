@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    border: black 2px solid;
+}
+th {
+    background-color: black; color: white; padding: 10px; min-width: 120px;
+}
+td {
+    min-width: 120px;
+}
+tr {
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+    
+}
+#webtech { background-color: red; color: white; column-span: all;
+}
+#database {
+    background-color: blue; color: white;
+}
+#essential{
+    background-color: blueviolet; color: white;
+}
+#organi {
+    background-color: darksalmon; color: white;
+}
