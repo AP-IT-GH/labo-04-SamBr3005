@@ -1,0 +1,27 @@
+body {
+    font-size: 0.625;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: blue;
+    color: yellow;
+    border: 2px solid red;
+    box-shadow:inset;
+}
+#button2:active {
+    transform:translateY(20px);
+    background-color: green;
+    color: orange;
+    border:rgb(219, 61, 151) 4px solid;
+}
+#button3:focus {
+    outline:3px solid cyan;
+}

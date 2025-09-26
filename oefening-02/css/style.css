@@ -1,0 +1,13 @@
+h1 {
+    font-size: 32px; font-weight: bold;
+}
+ol {
+    margin-left: 20px;
+}
+li:nth-child(even){
+    color:black;
+    background-color: rgb(212, 210, 210);
+}
+li:nth-child(odd){
+    color:blue
+}
